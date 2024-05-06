@@ -7,6 +7,7 @@ const EffectButton = () => {
     console.log("Count zostal zmieniony na: ", count);
     } ,[count])
     const handleClick = () => {
+        console.log("dupa");
         setCount(count + 1);
     }
 
